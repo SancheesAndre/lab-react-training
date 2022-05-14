@@ -1,0 +1,8 @@
+.greetingText {
+        display: flex;
+        text-align: left;
+        margin: 10px;
+        border: 2px rgb(80, 80, 80) solid;
+        padding: 5px;
+        font-size: 20px;
+}

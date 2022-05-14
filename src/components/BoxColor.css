@@ -1,0 +1,8 @@
+.boxColor {
+    height: 100px;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
