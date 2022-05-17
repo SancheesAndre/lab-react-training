@@ -1,0 +1,28 @@
+.creditCardContainer {
+    width: 300px;
+    border-radius:10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.bankName {
+    margin-left: 20px;
+}
+
+.number {
+    font-size: 1.9em;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cardType {
+    text-align: right;
+}
+
+.cardType > img {
+    height: 20px;
+}
+
+.expireDate, .owner {
+    text-align: left;
+}

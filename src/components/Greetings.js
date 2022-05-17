@@ -4,13 +4,13 @@ const Greetings = (props) => {
     const { lang, children } = props
 
     const setGreeting = (lang) => {
-        if (lang == 'de') {
+        if (lang === 'de') {
             return "Hallo"
-        } else if (lang == 'en') {
+        } else if (lang === 'en') {
             return "Hello"
-        } else if (lang == 'es') {
+        } else if (lang === 'es') {
             return "Hola"
-        } else if (lang == 'fr') {
+        } else if (lang === 'fr') {
             return "Bonjour"
         }
     }
