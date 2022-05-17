@@ -2,7 +2,7 @@ import './Rating.css'
 
 const Rating = (props) => {
 
-    const rating = Math.ceil(props.children)
+    const rating = Math.round(props.children)
 
     return (
         <div>

@@ -1,0 +1,36 @@
+.driverContainer {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    min-width: 100%;
+    justify-content:center;
+    
+}
+
+.driverCard {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #425cbb;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    width: 90%;
+}
+
+
+.driverName {
+     font-size: 2vw;
+     font-weight: bold;
+    
+}
+
+.driverPhoto img {
+    padding-top: 10px;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
